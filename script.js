@@ -1,18 +1,19 @@
 function greetUser() {
-    let name = document.getElementById("nameInput").value;
+    let name = document.getElementById("nameInput").value.trim();
     let greeting = document.getElementById("greeting");
 
-    if (name.trim() === "") {
+    if (name === "") {
         greeting.innerText = "Hello";
-    } else {
-        greeting.innerText = "Hello, " + name;
+        return;
     }
+
+    greeting.innerText = "Hello, " + name;
 }
 
 function changeColor(element, color) {
     element.style.backgroundColor = color;
 
-    // Optional: change text color for visibility
+    // Improve text visibility
     if (color === "yellow") {
         element.style.color = "black";
     } else {
