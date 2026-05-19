@@ -18,7 +18,7 @@ It demonstrates basic DOM manipulation and event handling.
 
 ## 🚀 Live Demo
 
-👉 https://mellow-puppy-9faaa7.netlify.app/
+👉 https://papaya-malabi-c65e79.netlify.app/
 
 ---
 
